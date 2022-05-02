@@ -23,7 +23,7 @@ export default function Search() {
   return (
     <div>
       <form onSubmit={searching}>
-        <input type="search" onChange={handleKeyword} autoFocus={true}/>
+        <input type="search" placeholder="Search for word..." onChange={handleKeyword} autoFocus={true}/>
       </form> 
       <Result results={results}/>
     </div>
