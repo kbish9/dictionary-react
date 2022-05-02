@@ -1,9 +1,11 @@
+import Search from './Search';
 import './App.css';
+
 
 function App() {
   return (
     <div>
-      Hello
+      <Search />
     </div>
   );
 }
