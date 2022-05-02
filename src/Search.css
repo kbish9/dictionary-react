@@ -1,0 +1,98 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: bisque;
+}
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+  margin: 20px;
+}
+
+.body section {
+  background-color: white;
+  margin: 10px;
+  box-shadow: 2px 3px #e7e7e7;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.results section {
+  background-color: white;
+  margin: 10px;
+  box-shadow: 2px 3px #e7e7e7;
+  border-radius: 10px;
+  padding: 10px;
+}
+.results h2 {
+  margin-left: 10px;
+}
+
+.hint {
+  font-size: 12px;
+  margin: 3px 10px;
+}
+
+input {
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.phonetic {
+  height: 40px;
+}
+
+.phonetic .text {
+  font-weight: bold;
+  opacity: 0.6;
+}
+
+.phonetic a {
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  margin-right: 20px;
+  padding: 5px 20px;
+  border-radius: 15px;
+  transition: all 150ms ease-in-out;
+}
+.phonetic a:hover {
+  background-color: blue;
+  color: white;
+}
+
+.meaning h3 {
+  font-size: 30px;
+}
+.meaning .definition {
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+.meaning .example {
+  font-size: 18px;
+  font-style: italic;
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+.synonyms {
+  margin: 0;
+  padding: 0;
+}
+
+.synonyms li {
+  font-size: 16px;
+  padding: 10px 10px;
+  display: inline-block;
+  margin-top: -10px;
+  line-height: 1;
+  font-weight: 500;
+}
+
+
+footer {
+  text-align: center;
+  font-size: 20px;
+  margin: 30px;
+}

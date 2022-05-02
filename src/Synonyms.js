@@ -1,17 +1,18 @@
 import React from "react";
+import "./Search.css"
 
 export default function Synonyms(props) {
   if (props.synonyms){
     return (
-      <div className="syonyms">
+      <ul className="synonyms">
         {props.synonyms.map(function (synonym, index) {
           return ( 
-            <span key={index}>
-             Synonyms: {synonym}
-            </span>
+            <li key={index}>
+             {synonym}
+            </li>
           )  
         })}
-      </div>
+      </ul>
     )
   } else {
     return null;
