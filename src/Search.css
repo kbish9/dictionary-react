@@ -1,12 +1,13 @@
 body {
   font-family: 'Raleway', sans-serif;
-  background-color: bisque;
+  background-color: #aac6ff;
 }
 
 h1 {
   text-align: center;
-  font-size: 48px;
+  font-size: 56px;
   margin: 20px;
+  font-weight: 700;
 }
 
 .body section {
@@ -79,6 +80,10 @@ input {
   font-weight: 500;
 }
 
+.photos img {
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
 
 footer {
   text-align: center;
