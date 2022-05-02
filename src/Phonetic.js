@@ -1,11 +1,14 @@
 import React from "react";
+import ReactAudioPlayer from "react-audio-player";
 
 export default function Phonetic(props) {
   return (
     <div className="phonetic">
-      <a href={props.phonetic.audio} target="_blank" rel="noreferrer">
-        Listen
-      </a>
+      <span className="audio">
+             <ReactAudioPlayer src={props.phonetic.audio} controls/>
+ 
+      </span>
+
       <span className="text">
          {props.phonetic.text}
       </span>

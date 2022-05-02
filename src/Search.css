@@ -40,26 +40,15 @@ input {
 }
 
 .phonetic {
-  height: 40px;
+  margin: 10px;
 }
 
 .phonetic .text {
+  margin-left: 15px;
+  position: relative;
+  top: -22px;
   font-weight: bold;
   opacity: 0.6;
-}
-
-.phonetic a {
-  color: black;
-  border: 1px solid black;
-  text-decoration: none;
-  margin-right: 20px;
-  padding: 5px 20px;
-  border-radius: 15px;
-  transition: all 150ms ease-in-out;
-}
-.phonetic a:hover {
-  background-color: blue;
-  color: white;
 }
 
 .meaning h3 {
